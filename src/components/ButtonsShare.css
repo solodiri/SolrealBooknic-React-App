@@ -1,0 +1,24 @@
+.button {
+  background-color: rgb(238, 145, 5);
+  color: rgb(2, 2, 2);
+  padding: 13px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  /* margin-left: 83px; */
+  /* margin-left: 20px; */
+}
+
+.button:hover {
+  /* background-color: rgb(211, 13, 241); */
+  background-color: rgb(89, 3, 100);
+  color: aliceblue;
+}
+.inputhouse {
+  /* background-color: rgb(211, 13, 241); */
+  background-color: rgb(89, 3, 100);
+  color: aliceblue;
+}

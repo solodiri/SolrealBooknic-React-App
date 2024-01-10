@@ -1,0 +1,25 @@
+.boundery{
+  /* background-color:blue ; */
+  margin: 50px 500px;
+}
+.inpu{
+  font-size: 20px;
+  color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+
+}
+.mydiv{
+ background-color: rgb(30, 4, 223);
+ width: 100px;
+ height: 50px;
+ border-radius: 10px;
+ color: aliceblue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+
+}

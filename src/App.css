@@ -1,0 +1,99 @@
+/* .App {
+  text-align: start;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.myAbout,
+.myContact,
+.myProduct,
+.myError {
+  margin-top: 120px;
+  /* background-color: blue; */
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.disclaimer,
+.conditions,
+.privacy,
+.about,
+.contact1,
+.checkOut {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transform: translateX(13%);
+  margin-top: 120px;
+  width: 80%;
+  font-size: 20px;
+  /* background-color: blueviolet; */
+  /* border: 5px solid red; */
+}
+.disclaimer p,
+.privacy p,
+.conditions p .disclaimer p,
+.about p {
+  font-size: 22px;
+  margin-top: 15px;
+  text-align: start;
+}
+.contact p,
+.about p,
+.checkOut {
+  font-size: 22px;
+  margin-top: 15px;
+  text-align: center;
+}
+.conditions h3,
+.privacy h3,
+.disclaimer h2,
+.contact1 h2,
+.about h2 {
+  margin-top: 15px;
+  color: black;
+}
+.aboutRed {
+  color: red;
+}
+
+.cartInImang {
+  width: 100px;
+}

@@ -1,0 +1,148 @@
+.dashboard {
+  margin-top: 80px;
+  display: flex;
+}
+.sidebar {
+  width: 20%;
+  background-color: rgb(89, 3, 100);
+  height: 100%;
+  padding-left: 30px;
+  text-align: start;
+  /* font-weight: 600; */
+  padding-top: 15px;
+  padding-bottom: 10px;
+  position: fixed;
+  overflow-y: hidden;
+}
+.sidebar ul a {
+  color: rgb(232, 229, 229);
+}
+.sidebar ul li a {
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+}
+.sidebarLinks {
+  list-style: none;
+  margin: 7px;
+}
+.sidebar ul li:hover {
+  background-color: rgb(147, 110, 182);
+  border-radius: 7px;
+}
+.sidebar ul span {
+  padding-left: 30px;
+  font-size: 25px;
+}
+.mainbar {
+  height: auto;
+  margin-left: 20%;
+  width: 80%;
+  background-color: rgb(159, 208, 219);
+}
+.dashcard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 200px; */
+  padding-top: 10px;
+  border-left: 10px solid rgb(243, 174, 174);
+  background-color: rgb(238, 244, 244);
+  color: rgb(93, 44, 44);
+  border-radius: 10px;
+  border: 2px solid rgb(218, 12, 128);
+  /* border: 2px solid rgb(2, 2, 2); */
+}
+.products .title {
+  /* margin-bottom: 10px; */
+  /* width: 100%; */
+  /* height: 50%; */
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(89, 3, 100);
+  /* border: 2px solid red; */
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* background-color: aqua; */
+}
+
+.icon {
+  font-size: 25px;
+  /* border: 2px solid rgb(0, 255, 55); */
+  padding: 10px;
+  margin-top: 15px;
+  /* height: 30%; */
+}
+.rating {
+  font-size: 30px;
+  font-weight: 600;
+  /* border: 2px solid rgb(38, 0, 255); */
+  /* height: 30%; */
+  /* margin-top: 30px; */
+}
+
+.analytics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  color: black;
+}
+.simage1 {
+  width: 500px;
+  padding-left: 100px;
+  color: black;
+  /* border: 2px solid red; */
+}
+.simage2 {
+  width: 200%;
+  height: 300px;
+  padding-top: 50px;
+  margin-left: 150px;
+  /* border: 2px solid red; */
+}
+.analytics .simage2 {
+  width: 100px;
+}
+.sales {
+  background-color: antiquewhite;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  height: 400px;
+}
+.unitorder {
+  background-color: rgb(238, 230, 219);
+  width: 98.5%;
+  height: 650px;
+  margin: 10px;
+  border-radius: 10px;
+  color: black;
+}
+.simage3 {
+  margin-left: 20px;
+  width: 100%;
+  height: 600px;
+}
+.sall {
+  /* padding: 20px; */
+  color: black;
+}
+.purchase {
+  /* padding: 20px; */
+  color: black;
+}
+.ordes {
+  padding: 20px;
+  color: black;
+}
+.construction h1 {
+  text-align: center;
+}

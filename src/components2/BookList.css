@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.booklistHeader {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  /* border: 2px solid rgb(20, 18, 18); */
+}
+.listCard {
+  border-radius: 20px;
+  border: 2px solid rgb(99, 4, 137);
+  background-color: rgb(234, 234, 230);
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  margin-left: 5px;
+  gap: 10px;
+}
+.booklist {
+  display: flex;
+  flex-direction: repeat (4, 1fr);
+  width: 80%;
+  margin: 50px auto;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.listData {
+  width: 100%;
+  margin-top: 5px;
+  margin-right: 5px;
+  /* border: 2px solid rgb(20, 18, 18); */
+}
